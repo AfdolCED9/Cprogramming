@@ -14,23 +14,27 @@ int phone[10];
 // =================== ตัวแปร ===================
 
 // =================== การรับข้อมูล ===================
-printf("You username is :");
+printf("You username is : ");
 scanf("%s",&username);
 
-printf("You email is :");
+printf("You email is : ");
 scanf("%s",&email);
 
-printf("You password is :");
+printf("You password is : ");
 scanf("%s",&password);
 
-printf("You repassword is :");
+printf("You repassword is : ");
 scanf("%s",&repassword);
 
-printf("You phone is :");
+printf("You phone is : ");
 scanf("%d",&phone);
 
 // =================== การรับข้อมูล ===================
 
 // =================== การแสดงผลข้อมูล ===================
+
+printf("Success \n");
+
+return 0;
 
 }
