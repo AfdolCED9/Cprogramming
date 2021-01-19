@@ -8,23 +8,23 @@ void main(){
 // ทำระบบสมัครสมาชิก เก็บ username, email, password, phone
 //                      char[]   char[] char[]    char[]
 
-char username, email, password, repassword;
-int phone;
+char username[20], email[50], password[20], repassword[20];
+int phone[10];
 
 // =================== ตัวแปร ===================
 
 // =================== การรับข้อมูล ===================
 printf("You username is :");
-scanf("%c",&username);
+scanf("%s",&username);
 
 printf("You email is :");
-scanf("%c",&email);
+scanf("%s",&email);
 
 printf("You password is :");
-scanf("%c",&password);
+scanf("%s",&password);
 
 printf("You repassword is :");
-scanf("%c",&repassword);
+scanf("%s",&repassword);
 
 printf("You phone is :");
 scanf("%d",&phone);
