@@ -34,7 +34,7 @@ scanf("%d",&phone);
 // =================== การแสดงผลข้อมูล ===================
 
 printf("Success \n");
-
+printf("You username is : %s",username);
 return 0;
 
 }
