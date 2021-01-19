@@ -1,4 +1,4 @@
-#iclude <stdio.h>
+#include <stdio.h>
 //  ส่วน ดึง Library ของโปรแกรม
 
 void main(){
