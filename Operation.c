@@ -22,22 +22,25 @@ void main(){
 
     // ---------------------- Process ----------------------//
     // result = num1 % num2;
-    total[0] = 2 < 1;
-    total[1] = 200 <= 201;
-    total[2] = 2 == 2;
-    total[3] = 2 !== 2;
+    // total[0] = 2 < 1;
+    // total[1] = 200 <= 201;
+    // total[2] = 2 == 2;
+    // total[3] = 2 != 2;
 
-    total[4] = (3 < 5) && (6 >= 7);
-    
-    total[5] = (5 <= 20)||(6 > 9);
+    total[4] = !(3 < 5) && (6 >= 7);
+
+    total[5] = !((5 <= 20)||(6 > 9));
     // total[6] = (5 <= 20)||(6 > 9);
     // ---------------------- Process ----------------------//
     
     // ---------------------- Output ----------------------//
-    printf("Total1 : %d \n",&total[0]);
-    printf("Total2 : %d \n",&total[1]);
-    printf("Total3 : %d \n",&total[2]);
-    printf("Total4 : %d \n",&total[3]);
+    // printf("Total1 : %d \n", total[0]);
+    // printf("Total2 : %d \n", total[1]);
+    // printf("Total3 : %d \n", total[2]);
+    // printf("Total4 : %d \n", total[3]);
+    printf("Total4 : %d \n", total[4]);
+    printf("Total4 : %d \n", total[5]);
+    // printf("Total4 : %d \n", total[6]);
     // ---------------------- Output ----------------------//
 
 }
