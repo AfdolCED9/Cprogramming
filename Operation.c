@@ -5,7 +5,7 @@
 void main(){
 
     //---------------------- ประกาศตัวแปร ----------------------//
-        int num1 ,num2;
+        int num1 ,num2 ,sum;
         float result;
         bool total[10];
         // boolเก็บได้แค่ true(1) false(0)
@@ -30,7 +30,10 @@ void main(){
     total[4] = !(3 < 5) && (6 >= 7);
 
     total[5] = !((5 <= 20)||(6 > 9));
-    // total[6] = (5 <= 20)||(6 > 9);
+    
+    sum = 5;
+    sum += 10;
+
     // ---------------------- Process ----------------------//
     
     // ---------------------- Output ----------------------//
@@ -39,8 +42,8 @@ void main(){
     // printf("Total3 : %d \n", total[2]);
     // printf("Total4 : %d \n", total[3]);
     printf("Total4 : %d \n", total[4]);
-    printf("Total4 : %d \n", total[5]);
-    // printf("Total4 : %d \n", total[6]);
+    printf("Total5 : %d \n", total[5]);
+    printf("sum : %d \n",sum);
     // ---------------------- Output ----------------------//
 
 }
