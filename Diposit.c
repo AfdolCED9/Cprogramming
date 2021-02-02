@@ -1,25 +1,17 @@
 #include<stdio.h>
+// import Libraly
 void manin(){
-    
-    char choice;
-
-    printf("Please input your drink : ");
-    scanf("%c", &choice);
-
-    switch (choice){
-        case'c':
-            printf("Coke!!");
-        break;
-
-        case'p':
-            printf("Pepsi!!");
-        break;
-
-        case'f':
-            printf("Fanta!!");
-        break;        
-        default:
-            printf("ERROR");
-        break;
+    // variable
+    int money;
+    // Input money 
+    printf("Please input your money : ");
+    scanf("%d", &money);
+    // condition
+    if (money<=20000 && money%100==0){
+        money = 50000-money;
+        printf("Total : %d",&money);
+    }
+    else{
+        printf("Incorrect amount");
     }
 }
