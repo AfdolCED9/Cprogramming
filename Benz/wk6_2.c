@@ -1,17 +1,16 @@
 #include<stdio.h>
-// import Libraly
-void manin(){
-    // variable
+void main(){
     int money;
-    // Input money 
     printf("Please input your money : ");
     scanf("%d", &money);
-    // condition
     if (money<=20000 && money%100==0){
-        money = 50000-money;
-        printf("Total : %d",&money);
+        printf("Total : %d",50000-money);
+    }
+    else if (money>20000){
+        printf("Limit 20000");
     }
     else{
         printf("Incorrect amount");
-    }
+    }    
+    printf("\nThank you");
 }

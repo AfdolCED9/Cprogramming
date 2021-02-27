@@ -6,10 +6,10 @@ void main(){
     printf("Please enter your age : ");
     scanf("%d", &yearold);
 // condition
-    if(yearold > 50){
+    if(yearold >= 50){
         printf("OLD \nThank you");
     }
     else{
-        printf("YOUNG mai dai nonn \nThank you");
+        printf("YOUNG \nThank you");
     }   
 }
