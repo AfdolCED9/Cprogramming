@@ -15,10 +15,10 @@ void main(){
     scanf("%d" ,&num2);
 
     total=num1+num2;
-    printf("Result is %d",total);
+    printf("Result is %d \n",total);
 
-    printf("Warittha Bunmee");
+    printf("Warittha Bunmee : ");
 
-    print("Programmer");
+    printf("Programmer");
 // --------------------- สิ้นสุดโปรแกรม ----------------------
 }
